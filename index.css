@@ -92,5 +92,6 @@ body{
     font-size: 30px;
     text-decoration: none;
     cursor: pointer;
+    outline: none;
 }
 
