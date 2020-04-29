@@ -94,4 +94,9 @@ body{
     cursor: pointer;
     outline: none;
 }
+#imgberlin{
+    width: 500px;
+    height: 350px;
+    margin-left: 700px;
+}
 
