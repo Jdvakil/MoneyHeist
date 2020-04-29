@@ -7,5 +7,10 @@ function prof() {
     }
 }
 function berlin() {
-    document.getElementById('berlin').innerHTML = "Andrés de Fonollosa";
+    let x = document.getElementById('bb');
+    if (x.innerHTML === "Berlin") {
+        x.innerHTML = "Andrés de Fonollosa";
+    } else {
+        x.innerHTML = "Berlin";
+    }
 }
