@@ -32,19 +32,35 @@
         </div><br><br><br><br><br>
 
         <div id="char">
-            <h1 id="charh">Characters</h1>
+
+            <div class="dropdown">
+                <h1 id="charh"> Characters</h1>
+                <div class="dropdown-content">
+                    <a class="lh" href="#pb">Professor</a>
+                    <a class="lh" href="#bb">Berlin</a>
+                    <a class="tb" href="#tb">Tokyo</a>
+                </div>
+            </div>
+
+
+            <!--
+                Professor
+            -->
             <h2><button id="pb" class="people" onclick="prof()">
                     Professor
                 </button><br>
                 <span class="charText">
-                    The Professor is the leader of the gang, and the one who carefully plans and organises the assault
-                    on
-                    the Royal Mint and the Bank of Spain in Madrid. With a remarkable culture, but with a nerdy
-                    appearance
-                    and components. </span>
+                    He was the mastermind responsible for organizing the Royal Mint of Spain robbery and later oversaw
+                    the robbery of the Bank of Spain, which had been orchestrated by <a href="#bb" title="Go to Berlin"
+                        class="cl">Berlin</a>. A cunning planner, he was
+                    able to control the entirety of the heist from behind the scenes, playing with the police and
+                    constantly tricking them into doing exactly what he wanted them to do. </span>
                 <img src="https://cdn.dribbble.com/users/2202752/screenshots/6849064/el_profesor...jpg" alt="prof"
-                    id="imgprof">
+                    class="imgChar">
             </h2>
+            <!--
+                Berlin
+            -->
             <h2>
                 <button id="bb" class="people" onclick="berlin()">Berlin</button><br>
                 <span class="charText">
@@ -54,8 +70,19 @@
                     said that he has a pathological need to make a good impression.
                 </span>
                 <img src="https://cdn.dribbble.com/users/4921613/screenshots/11103670/media/f2da6110d20f2ed3b5526a30b9f0dfcc.jpg"
-                    alt="Berlin" id="imgberlin">
+                    alt="Berlin" class="imgChar">
             </h2>
+            <h2>
+                <button id="tb" class="people" onclick="tokyo()">Tokyo</button><br>
+                <span class="charText">
+                    Tokyo is reckless and impulsive, she usually acts before she thinks, which sometimes results in
+                    things she regrets. She is quick to lose her patience, as well as sometimes being shown to quickly
+                    draw conclusions. She can’t control her emotions.
+                </span>
+                <img src="https://cdn.dribbble.com/users/3927094/screenshots/10995360/media/34dd7df50190532bc5658315d5f46382.png"
+                    alt="Tokyo" class="imgChar">
+            </h2>
+
         </div>
         <div id="About">
             <div id="Contact"></div>
