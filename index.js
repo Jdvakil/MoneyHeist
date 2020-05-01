@@ -14,3 +14,11 @@ function berlin() {
         x.innerHTML = "Berlin";
     }
 }
+function tokyo(){
+    let x = document.getElementById('tb');
+    if (x.innerHTML == 'Tokyo') {
+        x.innerHTML = 'Silene Oliveira';
+    } else {
+        x.innerHTML = 'Tokyo'
+    }
+}
