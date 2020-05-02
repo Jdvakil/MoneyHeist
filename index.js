@@ -22,3 +22,11 @@ function tokyo(){
         x.innerHTML = 'Tokyo'
     }
 }
+function denver() {
+    let x = document.getElementById('db');
+    if (x.innerHTML == 'Denver') {
+        x.innerHTML = 'Ricardo \'Daniel\' Ramos';
+    } else {
+        x.innerHTML = 'Denver'
+    }
+}
