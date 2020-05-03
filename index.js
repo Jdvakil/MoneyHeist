@@ -30,3 +30,27 @@ function denver() {
         x.innerHTML = 'Denver'
     }
 }
+function nairobi() {
+    let x = document.getElementById('nb');
+    if (x.innerHTML == 'Nairobi') {
+        x.innerHTML = 'Ágata Jiménez';
+    } else {
+        x.innerHTML = 'Nairobi'
+    }
+}
+function rio() {
+    let x = document.getElementById('rb');
+    if (x.innerHTML == 'Rio') {
+        x.innerHTML = 'Aníbal Cortés';
+    } else {
+        x.innerHTML = 'Rio'
+    }
+}
+function helsinki() {
+    let x = document.getElementById('hb');
+    if (x.innerHTML == 'Helsinki') {
+        x.innerHTML = 'Mirko Dragić';
+    } else {
+        x.innerHTML = 'Helsinki'
+    }
+}
