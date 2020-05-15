@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    transition: 2s;
 }
 
 #h1 {
@@ -19,7 +20,7 @@ body {
 .navBar {
     overflow: hidden;
     background-color: black;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     transition: 2s;
@@ -33,10 +34,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 2s;
 }
 
 .navBar a:hover {
     background-color: gray;
+    opacity: 2;
 }
 
 .topnav-right {
